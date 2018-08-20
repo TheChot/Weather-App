@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Weather App</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+
+  </head>
+  <body>
+    <div class= "mainWindow">
+      <h1>Weather App</h1>
+      <div id="getButton">
+        <button class="btn" onclick="getWeather()">Get Weather</button>
+      </div>
+      <div id="tempChange">
+        <label class="switch">
+            <input id ="TempChanger" type="checkbox" checked>
+            <span class="slider"></span>
+        </label>
+      </div>
+      <br>
+      <br>
+      <ul>
+        <li id="Temp">Temp</li>
+        <li id="Sky">Sky</li>
+        <li><img id = "Condition" src="" alt="conditions"></li>
+        <li id="City">CityCountry</li>
+      </ul>
+
+    </div>
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src = "index.js"></script>
+
+
+  </body>
+</html>
